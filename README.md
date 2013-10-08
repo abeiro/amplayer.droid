@@ -20,6 +20,12 @@ Uses:
 * Added initial support for lyrics (http://lyrics.wikia.com)
 
 
+Building
+========
+
+* Just "ant release install"
+
+
 Using it
 ========
 
@@ -34,7 +40,7 @@ LICENSING
 3rd party Software
 
 * jQuery. (1.10) 		MIT 			http://github.com/jquery/jquery/blob/master/MIT-LICENSE.txt
-* jQuery dataTables.  	BSD-3/GPL-2  	http://datatables.net/license_gpl2   http://datatables.net/license_bsd
+* jQuery dataTables.  		BSD-3/GPL-2	  	http://datatables.net/license_gpl2   http://datatables.net/license_bsd
 * CryptoJS v3.1.2		BSD-3	 		http://code.google.com/p/crypto-js/wiki/License 
 * xml2array.js			BSD-3 			http://www.openjs.com/scripts/xml_parser/
-* Cordova 				ASF				http://www.apache.org/licenses/LICENSE-2.0
+* Cordova 			ASF			http://www.apache.org/licenses/LICENSE-2.0
