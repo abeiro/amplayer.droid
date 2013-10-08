@@ -1,0 +1,18 @@
+{
+   "app": {
+      "background": {
+         "scripts": [ "background.js" ]
+      }
+   },
+   "description": "Ampache HTML5 Player",
+   "icons": {
+      "128": "logo.png",
+      "16": "logo16.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCBViphsYKOivPwcULxUWXNiJN0QWg33QjyBDnhmjZh7V7pPaVGlkfJ/v6oGPci1EoO47KOuBEVvQIc3vywo/UngiVM1PkRN3oRBd7EpduLaBprZRRe0QsFasUwmLwOb5dYKR/Ewtv8bHYooGvobJqBOn8sWuKqBxlz6k6crT/T1wIDAQAB",
+   "manifest_version": 2,
+   "name": "Ampache Player",
+   "permissions": [ "http://*/", "notifications", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.3"
+}

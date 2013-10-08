@@ -1,0 +1,252 @@
+@import url(default_table.css);
+
+body {
+    font-family:Trebuchet MS;
+    color:white;
+    background-color:black;
+	font-size:15px;
+	overflow:hidden;
+}
+
+#title {
+  font-size:27px;
+  padding:0px;
+  margin:0px;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  color:white;
+}
+
+#artist {
+  font-size:23px;
+  padding:0px;
+  margin:0px;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  color:white;
+}
+
+#album {
+  font-size:21px;
+  padding:0px;
+  margin:0px;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  color:white;
+}
+
+#art {
+  max-width:128px;
+  max-height:128px;
+
+}
+
+#playerCanvas {
+   width:100%;
+   position:relative;
+   
+}
+
+#playlist {
+  font-size:16px;
+
+}
+
+#playlistContent {
+  width:480px;
+  color:black;
+}
+
+#playlistContent   thead th {
+  color:white;
+
+}
+
+#playlistContent tr td {
+  font-size:16px;
+  white-space:nowrap;
+  overflow:hidden;
+  padding-left:5px;
+  height:32px;
+
+}
+
+
+#playlistContent_paginate a.paginate_enabled_previous  {
+	color:white !important;
+
+}
+
+#playlistContent_paginate a.paginate_disabled_previous  {
+	color:gray !important;
+
+}
+#playlistContent_paginate a.paginate_enabled_next  {
+	color:white !important;
+
+}
+#playlistContent_paginate a.paginate_disabled_next  {
+	color:gray !important;
+
+}
+
+
+div.plButton {
+    color:transparent;
+    background-image:transparent;
+    width:32px;
+	height:32px;
+    cursor:pointer;
+}
+
+div.plButton:hover {
+	opacity:0.75;
+
+}
+
+#toolbar {
+  margin-bottom:5px;
+  border:1px solid gray; 
+  font-size:16px;
+  background-color:#424242;
+  color:white;
+  border-radius:5px;
+  padding:5px;
+  margin-top:0px;	
+  
+}
+
+#toolbar span {
+  cursor:pointer;
+  border-radius:5px;
+  border:1px solid lightgray; 
+  padding:2px;
+  font-weight:bold;
+}
+
+#cNext:hover,#cPrev:hover,#cSettings:hover {
+  opacity:0.75;
+
+}
+
+#settings {
+	display:none;
+	position:absolute;
+	background-color:lightgray;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	color:black;
+	min-height:400px;
+	padding:15px;
+
+}
+
+#settings *{
+	font-size:22px;
+
+}
+
+#settings input[type=checkbox],#settings input{
+	border:1px solid black;
+	background-color:gray;
+}
+
+#settings #versionLabel {
+	font-size:8px;
+	top: 0px;
+	right: 50px;
+	position: absolute;
+	z-index: 1;
+	color: black;
+}
+
+#subHeader {
+	min-height:130px;
+
+}
+
+
+#showCanvas {
+	min-height:300px;
+	min-width:300px;
+	display: block;
+	position: absolute;
+	top: 0px;
+	lefT: 0px;
+	z-index: -2;
+	overflow:hidden;
+}
+#showCanvasImg {
+	overflow:hidden;
+}
+#playlistselect {
+	position: absolute;
+	right: 10px;
+	top: 145px;
+	background-color: white;
+	color: gray;
+	border-radius: 5px;
+}
+
+#fullScreenButton {
+	position:absolute;
+	top:0px;
+	right:0px;
+	color:white;
+	cursor:pointer;
+	z-index:2;
+}
+
+html:-moz-full-screen {
+    background: black;
+}
+ 
+html:-webkit-full-screen {
+    background: black;
+}
+ 
+html:fullscreen {
+    background: black;
+}
+
+#cLike {
+	background-image:url(../img/like.png);
+	background-position:center left;
+	background-repeat: no-repeat;
+	width:24px;
+}
+
+#lyricsCanvas {
+	position: absolute;
+	top: 10px;
+	padding:10px;
+	right: 10px;
+	font-family: verdana;
+	font-size: 13px;
+	z-index: 5;
+	font-weight: bold;
+	opacity:0.9;
+	/*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
+	max-height:500px;
+	background-color:white;
+	color:black;
+	border-radius:15px;
+	overflow-y:scroll;
+	width: 400px;
+	word-wrap: break-word;
+	display:none;
+}
+
+::-webkit-scrollbar {
+    height: 12px;
+	width: 12px;
+	background: transparent;
+    }
+::-webkit-scrollbar-thumb {
+    background: gray;
+    -webkit-border-radius: 1ex;
+    -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+	height:90%
+}
+::-webkit-scrollbar-corner {
+    background: white;
+}
