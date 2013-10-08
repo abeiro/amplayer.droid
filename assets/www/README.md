@@ -34,6 +34,8 @@ Click settings, configure and play
 LICENSING
 =========
 
+* GPL v3
+
 3rd party Software
 
 * jQuery. (1.10) 		MIT 			http://github.com/jquery/jquery/blob/master/MIT-LICENSE.txt

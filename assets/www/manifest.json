@@ -12,5 +12,5 @@
    "manifest_version": 2,
    "name": "Ampache Player",
    "permissions": [ "http://*/", "notifications", "storage" ,"https://www.google-analytics.com/","fullscreen","identity"],
-   "version": "0.4.11"
+   "version": "0.4.13"
 }

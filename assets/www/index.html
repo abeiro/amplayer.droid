@@ -69,8 +69,8 @@
 
 		<div id="settings">
 				<h2>Ampache server settings</h2>
-				URL Ampache<br /> <input type="text" id="surl" name="url" value="" size="50"><br />
-				User<br /> <input type="text" id="suser" name="user" value=""><br />
+				URL Ampache<br /> <input type="text" id="surl" name="url" value="" size="50" placeholder="http://smellof.tk/ampachedemo/"><br />
+				User<br /> <input type="text" id="suser" name="user" value="" placeholder="guest"><br />
 				Pass<br /> <input type="password" id="spass" name="pass" value=""><br />
 				Use fanart.tv artist images (note this can increase bandwith) <input type="checkbox" id="fanart" name="fanart" value="fanart"><br />
 				Fetch lyrics from http://lyrics.wikia.com/ <input type="checkbox" id="uselyrics" name="uselyrics" value="uselyrics">
@@ -80,7 +80,13 @@
 				<input type="button" id="SaveSettings" value="Save!">
 				<input type="button" id="ClearCache" value="Clear Cache">
 				<input type="button" id="CloseButton" value="Close">
-				<span style='' id="versionLabel">0.4.11</span>
+				<p style="font-size:14px">
+					Sometimes you will need to press "Clear Cache" and restart app after an upgrade.
+				</p>
+				<p style="font-size:14px">
+					Demostration Ampache server: http://smellof.tk/ampachedemo/. User/Pass: guest
+				</p>
+				<span style='' id="versionLabel">0.4.13</span>
 		</div>
 
 

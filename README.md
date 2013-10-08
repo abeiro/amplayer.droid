@@ -35,7 +35,7 @@ Click settings, configure and play
 LICENSING
 =========
 
-* GPL v2
+* GPL v3
 
 3rd party Software
 
